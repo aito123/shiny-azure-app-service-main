@@ -1,6 +1,6 @@
 FROM rocker/r-ver:4.2.0
 
-COPY ./app
+COPY . /app
 
 WORKDIR /app
 
